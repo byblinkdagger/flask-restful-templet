@@ -7,6 +7,9 @@ from app.lib.auth import login_check
 from app.ext import db
 from app.validator.error import ApiException
 
+# for upload file
+from app.model.file import PasteFile
+
 api = Blueprint('api', __name__)
 
 
@@ -106,3 +109,25 @@ def get_collection():
     uid = g.user['uid']
     user = User.get_user(uid)
     return jsonify(user.collection)
+
+# 上传图片
+@api.route('/v1/upload', methods=['POST'])
+def upload_file():
+    uploaded_file = request.files['file']
+
+    if uploaded_file:
+        paste_file = PasteFile.create_by_upload_file(uploaded_file)
+        db.session.add(paste_file)
+        db.session.commit()
+        width, height = paste_file.image_size
+
+        return jsonify({
+            'url': paste_file.url_i,
+            'short_url': paste_file.url_s,
+            'origin_filename': paste_file.filename,
+            'hash': paste_file.filehash,
+            'width': width,
+            'height': height
+        })
+
+    raise ApiException(code='001', msg='文件上传错误')
