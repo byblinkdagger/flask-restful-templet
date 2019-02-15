@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90ff2325-e50d-4d28-a658-9bf43b72841f" name="Default Changelist" comment="" />
+    <list default="true" id="90ff2325-e50d-4d28-a658-9bf43b72841f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,6 +15,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/flask_restful$flask_restful.coverage" NAME="flask-restful Coverage Results" MODIFIED="1539830765482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/flask_restful$Flask__app_app_py___1_.coverage" NAME="Flask (app/app.py) (1) Coverage Results" MODIFIED="1550211601542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/flask_restful$test.coverage" NAME="test Coverage Results" MODIFIED="1550022806565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/flask_restful$manage__1_.coverage" NAME="manage (1) Coverage Results" MODIFIED="1550214797950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -17,6 +23,11 @@
     <SUITE FILE_PATH="coverage/flask_restful$api.coverage" NAME="api Coverage Results" MODIFIED="1550201667471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/api" />
     <SUITE FILE_PATH="coverage/flask_restful$Flask__app_app_py_create_app_.coverage" NAME="Flask (app/app.py:create_app) Coverage Results" MODIFIED="1550212482371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/flask_restful$manage.coverage" NAME="manage Coverage Results" MODIFIED="1550213007678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+=======
+    <SUITE FILE_PATH="coverage/flask_restful$Flask__app_app_py___1_.coverage" NAME="Flask (app/app.py) Coverage Results" MODIFIED="1539856500304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask_restful$Flask__app_app_py_.coverage" NAME="Flask (app/app.py) Coverage Results" MODIFIED="1540196311989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask_restful_templet$Flask__app_app_py_.coverage" NAME="Flask (app/app.py) Coverage Results" MODIFIED="1540287410506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+>>>>>>> 53f4ee75c645b5240698f2d13f8b09dce681f682
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-950962952">
@@ -62,6 +73,36 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1198893283">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="md" value="28" />
+          <entry key="py" value="164" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Markdown" value="28" />
+          <entry key="Python" value="164" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -69,7 +110,11 @@
         <entry file="file://$PROJECT_DIR$/app/config/setting.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
+<<<<<<< HEAD
               <caret line="6" selection-start-line="6" selection-end-line="6" />
+=======
+              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="46" />
+>>>>>>> 53f4ee75c645b5240698f2d13f8b09dce681f682
             </state>
           </provider>
         </entry>
@@ -77,24 +122,43 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="360">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
+=======
+            <state relative-caret-position="284">
+              <caret line="118" column="26" selection-start-line="118" selection-start-column="26" selection-end-line="118" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+>>>>>>> 53f4ee75c645b5240698f2d13f8b09dce681f682
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/lib/enums.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="40">
               <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/model/file.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="79" column="16" lean-forward="true" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+              <folding>
+                <element signature="e#15#24#0" expanded="true" />
+              </folding>
+>>>>>>> 53f4ee75c645b5240698f2d13f8b09dce681f682
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/lib/http.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -112,16 +176,30 @@
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
                 <marker date="1550213265247" expanded="true" signature="324:357" ph="..." />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/util/mimes.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/util/file_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+              <folding>
+                <element signature="e#15#24#0" expanded="true" />
+>>>>>>> 53f4ee75c645b5240698f2d13f8b09dce681f682
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/ext.py">
+        <entry file="file://$PROJECT_DIR$/app/config/setting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="120">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -129,10 +207,58 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/model/user.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="40">
+              <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="17" />
+=======
+            <state>
+              <caret selection-end-column="27" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/model/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+              <folding>
+                <marker date="1540285173734" expanded="true" signature="55:56" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="536">
+                <caret line="105" column="52" lean-forward="true" selection-start-line="105" selection-start-column="52" selection-end-line="105" selection-end-column="52" />
+              </first_editor>
+              <second_editor />
+>>>>>>> 53f4ee75c645b5240698f2d13f8b09dce681f682
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/model/user.py">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="700">
               <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
+=======
+            <state relative-caret-position="160">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+>>>>>>> 53f4ee75c645b5240698f2d13f8b09dce681f682
               </folding>
             </state>
           </provider>
@@ -161,6 +287,7 @@
       <find>Collection</find>
       <find>ApiException</find>
       <find>c_name</find>
+<<<<<<< HEAD
       <find>api</find>
       <find>g.</find>
       <find>field</find>
@@ -170,6 +297,14 @@
       <find>expires_in</find>
       <find>uid</find>
       <find>app</find>
+=======
+      <find>sett</find>
+      <find>cached_property</find>
+      <find>get_file_path</find>
+      <find>abort</find>
+      <find>setting</find>
+      <find>PasteFile</find>
+>>>>>>> 53f4ee75c645b5240698f2d13f8b09dce681f682
     </findStrings>
     <dirStrings>
       <dir>E:\flask-restful</dir>
@@ -191,6 +326,7 @@
         <option value="$PROJECT_DIR$/app/model/collection.py" />
         <option value="$PROJECT_DIR$/note.txt" />
         <option value="$PROJECT_DIR$/readME.md" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/test.py" />
         <option value="$PROJECT_DIR$/app/api/api.py" />
         <option value="$PROJECT_DIR$/app/app.py" />
@@ -200,6 +336,15 @@
         <option value="$PROJECT_DIR$/app/config/setting.py" />
         <option value="$PROJECT_DIR$/app/model/user.py" />
         <option value="$PROJECT_DIR$/app/lib/http.py" />
+=======
+        <option value="$PROJECT_DIR$/app/model/base.py" />
+        <option value="$PROJECT_DIR$/app/util/file_utils.py" />
+        <option value="$PROJECT_DIR$/app/model/file.py" />
+        <option value="$PROJECT_DIR$/app/config/setting.py" />
+        <option value="$PROJECT_DIR$/app/api/api.py" />
+        <option value="$PROJECT_DIR$/app/app.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+>>>>>>> 53f4ee75c645b5240698f2d13f8b09dce681f682
       </list>
     </option>
   </component>
@@ -227,23 +372,23 @@
         <subPane>
           <expand>
             <path>
-              <item name="flask-restful" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flask-restful" type="462c0819:PsiDirectoryNode" />
+              <item name="flask-restful-templet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask-restful-templet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="flask-restful" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flask-restful" type="462c0819:PsiDirectoryNode" />
+              <item name="flask-restful-templet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask-restful-templet" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="flask-restful" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flask-restful" type="462c0819:PsiDirectoryNode" />
+              <item name="flask-restful-templet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask-restful-templet" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="flask-restful" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flask-restful" type="462c0819:PsiDirectoryNode" />
+              <item name="flask-restful-templet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask-restful-templet" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -255,6 +400,7 @@
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
+<<<<<<< HEAD
               <item name="flask-restful" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
@@ -273,6 +419,18 @@
               <item name="flask-restful" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="migrations" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+=======
+              <item name="flask-restful-templet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask-restful-templet" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask-restful-templet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask-restful-templet" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 53f4ee75c645b5240698f2d13f8b09dce681f682
             </path>
           </expand>
           <select />
@@ -282,18 +440,29 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="E:/fisher" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> 53f4ee75c645b5240698f2d13f8b09dce681f682
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="E:\flask-restful" />
       <recent name="E:\flask-restful\app" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\flask-restful\app\lib" />
+=======
+      <recent name="E:\flask-restful\app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\github\flask-restful-templet\app\util" />
+>>>>>>> 53f4ee75c645b5240698f2d13f8b09dce681f682
       <recent name="E:\flask-restful\app" />
       <recent name="E:\flask-restful\app\config" />
     </key>
@@ -477,13 +646,22 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18656716" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17430703" />
+>>>>>>> 53f4ee75c645b5240698f2d13f8b09dce681f682
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.30227518" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.16684724" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23726977" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.1904762" />
+>>>>>>> 53f4ee75c645b5240698f2d13f8b09dce681f682
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -551,6 +729,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://E:/flask/flask_demo/demo_flask/Lib/site-packages/flask/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="708">
@@ -559,6 +738,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
+=======
+    <entry file="file://E:/flask/flask_demo/demo_flask/Lib/site-packages/werkzeug/exceptions.py">
+>>>>>>> 53f4ee75c645b5240698f2d13f8b09dce681f682
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
@@ -579,6 +761,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://E:/flask/flask_demo/demo_flask/Lib/site-packages/sqlalchemy/orm/query.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -587,6 +770,9 @@
       </provider>
     </entry>
     <entry file="file://E:/flask/flask_demo/demo_flask/Lib/site-packages/flask_sqlalchemy/__init__.py">
+=======
+    <entry file="file://E:/flask/flask_demo/demo_flask/Lib/site-packages/flask/app.py">
+>>>>>>> 53f4ee75c645b5240698f2d13f8b09dce681f682
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="406" column="23" selection-start-line="406" selection-start-column="23" selection-end-line="406" selection-end-column="23" />
@@ -602,6 +788,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/validator/forms.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="420">
           <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
         </state>
@@ -611,11 +798,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10513">
           <caret line="777" lean-forward="true" selection-start-line="777" selection-end-line="777" />
+=======
+        <state relative-caret-position="40">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+>>>>>>> 53f4ee75c645b5240698f2d13f8b09dce681f682
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/test.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="60">
           <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
@@ -633,10 +825,45 @@
         <state>
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+=======
+        <state relative-caret-position="200">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/note.txt" />
+    <entry file="file://$PROJECT_DIR$/app/model/collection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ext.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="2" column="43" selection-start-line="1" selection-end-line="2" selection-end-column="43" />
+          <folding>
+            <element signature="e#15#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/validator/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="33" column="10" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+>>>>>>> 53f4ee75c645b5240698f2d13f8b09dce681f682
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/model/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -655,10 +882,26 @@
             <element signature="e#0#61#0" expanded="true" />
             <marker date="1550202043535" expanded="true" signature="540:545" ph="..." />
             <marker date="1550202043535" expanded="true" signature="2136:2141" ph="..." />
+=======
+    <entry file="file://E:/flask/flask_demo/demo_flask/Lib/site-packages/itsdangerous.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7300">
+          <caret line="372" column="63" lean-forward="true" selection-start-line="372" selection-start-column="63" selection-end-line="372" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/validator/error.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+>>>>>>> 53f4ee75c645b5240698f2d13f8b09dce681f682
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -676,19 +919,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
+=======
+    <entry file="file://E:/flask/flask_demo/demo_flask/Lib/site-packages/flask_sqlalchemy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="854">
+          <caret line="676" column="13" selection-start-line="676" selection-start-column="13" selection-end-line="676" selection-end-column="13" />
+>>>>>>> 53f4ee75c645b5240698f2d13f8b09dce681f682
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/user.py">
+    <entry file="file://$PROJECT_DIR$/app/model/base.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="700">
           <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
+=======
+        <state relative-caret-position="500">
+          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding>
+            <marker date="1540285173734" expanded="true" signature="55:56" ph="..." />
+>>>>>>> 53f4ee75c645b5240698f2d13f8b09dce681f682
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-73">
@@ -696,20 +953,41 @@
           <folding>
             <element signature="e#0#33#0" expanded="true" />
             <marker date="1550213265247" expanded="true" signature="324:357" ph="..." />
+=======
+    <entry file="file://$PROJECT_DIR$/app/model/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="27" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+>>>>>>> 53f4ee75c645b5240698f2d13f8b09dce681f682
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/util/mimes.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/util/file_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="e#15#24#0" expanded="true" />
+>>>>>>> 53f4ee75c645b5240698f2d13f8b09dce681f682
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/lib/enums.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -721,6 +999,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
           <caret line="35" column="52" lean-forward="true" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/config/setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="536">
+            <caret line="105" column="52" lean-forward="true" selection-start-line="105" selection-start-column="52" selection-end-line="105" selection-end-column="52" />
+          </first_editor>
+          <second_editor />
+>>>>>>> 53f4ee75c645b5240698f2d13f8b09dce681f682
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="118" column="26" selection-start-line="118" selection-start-column="26" selection-end-line="118" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="79" column="16" lean-forward="true" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+          <folding>
+            <element signature="e#15#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

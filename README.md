@@ -98,3 +98,9 @@ Student.query(Student).filter(or_(Student.Name.like('%luck%') , Student.addr.lik
 将模型对象的def keys()方法返回字段前，调用自定义的hide()方法，从中去除某些字段,记得 return self
 
 #### 8.relationship反向引用
+
+
+### [day-03]
+
+#### 文件上传
+利用``from werkzeug.wsgi import SharedDataMiddleware``

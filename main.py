@@ -1,19 +1,33 @@
 from flask import Flask as _Flask
+<<<<<<< HEAD:main.py
 from app.ext import db,mako
+=======
+from .ext import db, mako
+>>>>>>> 53f4ee75c645b5240698f2d13f8b09dce681f682:app/app.py
 from flask.json import JSONEncoder as _JSONEncoder
 from app.model.collection import Collection
 
+# for upload file
+from werkzeug.wsgi import SharedDataMiddleware
+from app.util.file_utils import get_file_path
+
+
 class JSONEncoder(_JSONEncoder):
     def default(self, o):
-        if hasattr(o,'keys') and hasattr(o,'__getitem__'):
+        if hasattr(o, 'keys') and hasattr(o, '__getitem__'):
             return dict(o)
+
 
 class Flask(_Flask):
     json_encoder = JSONEncoder
 
+
 def create_app():
     app = Flask(__name__)
     app.config.from_object('app.config.setting')
+    app.wsgi_app = SharedDataMiddleware(app.wsgi_app, {
+        '/i/': get_file_path()
+    })
     mako.init_app(app)
     db.init_app(app)
     register_app(app)
@@ -33,10 +47,12 @@ def create_app():
 
     return app
 
+
 def register_app(app):
     from app.api.api import api
     app.register_blueprint(api)
 
+
 if __name__ == '__main__':
     app = create_app()
-    app.run(host='127.0.0.1',port=8088,debug=True)
+    app.run(host='127.0.0.1', port=8088, debug=True)
