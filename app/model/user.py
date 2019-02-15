@@ -10,6 +10,8 @@ class User(db.Model):
     account = db.Column(db.String(50))
     secret = db.Column(db.String(500))
     type = db.Column(db.Integer)
+    interest = db.Column(db.String(50))
+    email = db.Column(db.String(50), unique=True)
     _password = db.Column('password', db.String(500))
 
     collection = db.relationship('Collection', backref='user')
@@ -49,6 +51,14 @@ class User(db.Model):
         self._password = generate_password_hash(raw)
         # self._password = "123456"
 
+    # 额外拓展一些业务中需要使用的字段
+    @property
+    def summary(self):
+        return dict(
+            nickname=self.account,
+            acctounttype=self.type,
+        )
+
     @staticmethod
     def create_user(account, secret):
         user = User()
@@ -74,6 +84,15 @@ class User(db.Model):
             raise ApiException(msg='用户不存在')
         else:
             return user
+
+    @staticmethod
+    def reset_password(uid, new_password):
+        user = User.query.filter_by(id=uid).first()
+        if user is None:
+            raise ApiException(msg='用户不存在')
+        else:
+            user.password = new_password
+            db.session.commit()
 
     def check_password(self, raw):
         if not raw:

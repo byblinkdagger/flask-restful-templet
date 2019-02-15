@@ -6,6 +6,7 @@ from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
 from app.lib.auth import login_check
 from app.ext import db
 from app.validator.error import ApiException
+from flask_sqlalchemy import get_debug_queries
 
 api = Blueprint('api', __name__)
 
@@ -47,7 +48,7 @@ def login():
     if form.validate_for_api():
         identity = User.verify(form.account.data, form.secret.data)
         # token 生成
-        token = generate_auth_token(identity['uid'])
+        token =  generate_auth_token(identity['uid'])
         return jsonify({
             'token': token.decode('ascii')
         })
@@ -76,6 +77,21 @@ def get_user():
     #     }
     # })
     # pass
+
+@api.route('/test/user', methods=['POST'])
+def get_test_user():
+    data = {
+        'code': '000',
+        'msg': '成功',
+        'user':{
+            'userId': 1,
+            'account': 135125677777
+        }
+    }
+    dict = []
+    for i in range(0,100):
+        dict.append(data)
+    return jsonify(dict)
 
 
 # 添加收藏

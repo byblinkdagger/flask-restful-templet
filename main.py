@@ -1,5 +1,5 @@
 from flask import Flask as _Flask
-from .ext import db,mako
+from app.ext import db,mako
 from flask.json import JSONEncoder as _JSONEncoder
 from app.model.collection import Collection
 
